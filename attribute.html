@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <style>
+
+        .container{
+            display: block;
+            width: 244px;
+            margin: auto;
+        }
+        input{
+            background-color: khaki;
+        }
+        input[type='text']{
+            border: 2px solid red;
+            padding: 5px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        input[type='email']{
+            border: 2px solid red;
+            padding: 5px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        button{
+
+            border: 2px solid red;
+            padding: 5px;
+            font-weight: bold;
+            margin:  auto;
+            display: block;
+        }
+        /* li:nth-child(3n+0){
+            background-color: red;
+        } */
+        /* li:nth-child(even){
+            background-color: red;
+        } */
+        li:nth-child(odd){
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" name="EName" id="EName" placeholder="Enter your Name">
+            <input type="email" name="email" id="EMail" placeholder="Enter your Email">
+            <button>Submit</button>
+        </form>
+        <ul>
+            <li class="item" id="item-1">item1</li>
+            <li class="item" id="item-2">item2</li>
+            <li class="item" id="item-3">item3</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-5">item5</li>
+            <li class="item" id="item-6">item6</li>
+            <li class="item" id="item-7">item7</li>
+            <li class="item" id="item-8">item8</li>
+            <li class="item" id="item-9">item9</li>
+            <li class="item" id="item-10">item10</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadaw and text-shadaw </title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            background-color: khaki;
+            padding: 10px 13px;
+            margin: 10px 13px;
+            border: 2px solid red;
+            /* box-shadow: 6px 6px green; */
+            /* box-shadow: -6px -6px green; */
+            /* box-shadow: 6px 6px 20px green; */
+        box-shadow: inset 3px 5px green;
+        }
+        .card h2{
+        text-shadow: 3px 5px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>This is c++ course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo in dicta neque et minima ratione
+                laboriosam eligendi rem ullam temporibus inventore tempore corporis molestias quia recusandae earum ab
+                harum, assumenda deleniti vero? Dignissimos.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is c++ java</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium aperiam ipsa, incidunt ex
+                laboriosam cumque deserunt unde quaerat optio odio nemo dolorum aspernatur consectetur aliquid
+                voluptatibus, dolorem molestiae magni enim? Totam, aut similique.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>This is c++ html</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim porro sint blanditiis fuga ullam
+                cupiditate, odio repellendus debitis dolorum ea sunt doloremque laborum? Animi fuga minima delectus.
+                Sapiente, laboriosam excepturi. Autem totam in quo?</p>
+        </div>
+    </div>
+</body>
+
+</html>

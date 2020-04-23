@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variable and custom/properties</title>
+    <style>
+        :root{
+            --primary-color:red;
+            --denger-color:blue;
+            --maxw:445px;
+        }
+        .box{
+            --box-color:red;
+            height: 200px;
+            width: 200px;
+            border: 2px solid var(--primary-color);
+            margin: 5px 10px;
+            background-color: var(--primary-color);
+            box-shadow: 2px 3px var(--denger-color);
+        }
+        .container{
+            margin: auto;
+            justify-content: center;
+            display: flex;
+            width: var(--maxw);
+            display: flex;
+            background-color: var(--denger-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

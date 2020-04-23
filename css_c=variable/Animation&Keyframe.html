@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation and Keyframe</title>
+    <style>
+        .container{
+            background-color: yellow;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            position: relative;
+            /* animation-name: khan; */
+            animation-name: khan1;
+            /* animation-duration: 2s; */
+            animation-duration: 7s;
+            animation-iteration-count: 3;
+            /* animation-iteration-count: infinite; */
+
+        }
+        @keyframes khan {
+            from{
+                width: 0%;
+            }
+            to{
+                width: 100%;
+            }
+        }
+        @keyframes khan1 {
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            10%{
+top: 250px;
+left: 0px;
+            }
+            20%{
+top: 250px;
+left: 250px;
+            }
+            30%{
+top: 500px;
+left: 250px;
+            }
+            40%{
+top: 500px;
+left: 500px;
+            }
+            50%{
+                top: 250px;
+left: 500px;
+            }
+            60%{
+                top: 250px;
+left: 750px;
+            }
+            70%{
+                top: 0px;
+left: 750px;
+            }
+            80%{
+                top: 0px;
+left: 500px;
+            }
+            90%{
+                top: 0px;
+left: 250px;
+            }
+            100%{
+                top: 0px;
+left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            this is my box
+        </div>
+    </div>
+</body>
+</html>

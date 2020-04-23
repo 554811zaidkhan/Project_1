@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: solid green 7px;
+            margin: 12px auto;
+        }
+
+        .item {
+            background: rgb(248, 238, 238);
+            border: indigo solid 5px;
+            padding: 12px 3px;
+            margin: 12px 3px;
+        }
+
+        #frout {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        p,
+        h2 {
+            text-align: justify;
+            /* text-align: right; */
+        }
+
+        h1 {
+            width: 455px;
+            margin: 23px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to My Store</h1>
+        <div class="item" id="frout">
+            <h2>Frout</h2>
+            <p id="froutpara" class="para"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quod odio minus consequatur vel ipsam
+            laboriosam aspernatur! Dignissimos quo inventore accusantium commodi odio, quisquam illum consequatur,
+            beatae, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolore ipsum eveniet repellat
+            perspiciatis quidem? Praesentium veniam laboriosam totam perferendis quibusdam tenetur beatae excepturi
+            iusto corporis sint omnis quam, optio reiciendis repellat quidem sit?
+            ab dolorem maiores totam placeat necessitatibus corrupti. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Cum fugiat delectus eos numquam natus. Quam officia incidunt enim molestiae at non ea vero earum unde
+            tempore facilis minus commodi, deserunt quibusdam nulla sunt nobis?
+        </div>
+        <div class="item" id="Computer">
+            <h2>Computer</h2>
+            <p id="Computerpara" class="para"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quod odio minus consequatur vel ipsam
+            laboriosam aspernatur! Dignissimos quo inventore accusantium commodi odio, quisquam illum consequatur,
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus porro mollitia, unde nesciunt animi id ex
+            eum quas provident magnam suscipit blanditiis ea molestias iste omnis dolor quae beatae ipsam ratione
+            eligendi corporis ipsum. beatae, ab dolorem maiores totam placeat necessitatibus corrupti. Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Illum vel at architecto veritatis quis omnis saepe, quibusdam
+            sint perspiciatis, id minima inventore adipisci non excepturi recusandae magni officiis reiciendis alias
+            quia deserunt, quam expedita?
+        </div>
+        <div class="item" id="stationary">
+            <h2>stationary</h2>
+            <p id="stationarypara" class="para"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quod odio minus consequatur vel ipsam
+            laboriosam aspernatur! Dignissimos quo inventore accusantium commodi odio, quisquam illum consequatur,
+            beatae, ab dolorem maiores totam placeat necessitatibus corrupti.
+        </div>
+        <div class="item" id="glasses">
+            <h2>stationary</h2>
+            <p id="glassespara" class="para"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quod odio minus consequatur vel ipsam
+            laboriosam aspernatur! Dignissimos quo inventore accusantium commodi odio, quisquam illum consequatur,
+            beatae, ab dolorem maiores totam placeat necessitatibus corrupti.
+        </div>
+    </div>
+
+</body>
+
+</html>

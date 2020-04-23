@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header::before {
+            content: "";
+            background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat center center/cover;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            opacity: 0.3;
+            height: 100%;
+            width: 100%;
+        }
+        /* .navigation ul{
+            overflow: auto;
+        } */
+        .navigation {
+            position: fixed;
+            font-family: 'Lobster', cursive;
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            font-family: 'Lobster', cursive;
+            list-style: none;
+            padding: 15px 31px;
+            margin: 0px;
+        }
+
+        section {
+            font-family: 'Lobster', cursive;
+            display: flex;
+            flex-direction: column;
+            margin: 5px 115px;
+            align-items: center;
+            /* border: 2px solid red; */
+            justify-content: center;
+            height: 300px;
+        }
+
+        h3 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        /*
+        section::before{
+            content: "This is a content"
+        } */
+        .register {
+            
+            height: 350px;
+            border: 2px solid wheat;
+            width: 33%;
+            padding: 2px 31px;
+            margin: 45px 81px;
+            border-radius: 5px;
+        }
+        .reg input:hover{
+            background-color: rgb(150, 60, 127);
+        }
+        .reg input {
+            /* color: peru; */
+            margin: 7px auto;
+    padding: 4px;
+    width: 347px;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    border-radius: 7px;
+        }
+
+        .register h1 {
+            text-align: center;
+        }
+button:hover{
+    background-color: red;
+}
+        button {
+            display: block;
+            margin: 5px auto;
+            width: 352px;
+            border-radius: 7px;
+            padding: 4px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">Contact</li>
+                <li class="item">Service</li>
+                <li class="item">About</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Welcome to coding world</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At non rerum illum a voluptatibus libero dolor sed
+            quo maxime. Natus illum, neque quasi magnam fugit doloribus, provident numquam corrupti atque hic quod minus
+            eligendi.
+        </p>
+    </section>
+    <!-- <hr> -->
+    <div class="register">
+        <h1>Registreation Form</h1>
+        <form class="khan">
+            <div class="reg">
+                <input type="text" name="Name" id="Name" placeholder="Enter your name">
+            </div>
+            <div class="reg">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="reg">
+                <input type="password" name="pass" id="pass" placeholder="Enter your password">
+            </div>
+            <div class="reg">
+                <input type="Address" name="local" id="local" placeholder="Enter your Address">
+            </div>
+            <div class="reg">
+                <input type="number" name="phone" id="phone" placeholder="Enter your phone number">
+            </div>
+            <button>Submit</button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
